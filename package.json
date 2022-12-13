@@ -1,0 +1,67 @@
+{
+  "name": "simafront",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@hedgedoc/html-to-react": "^1.4.5",
+    "@reduxjs/toolkit": "^1.8.6",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.24.1",
+    "axios": "^1.1.3",
+    "babel-plugin-macros": "^3.1.0",
+    "bootstrap": "^5.2.2",
+    "dayjs": "^1.11.6",
+    "font-awesome": "^4.7.0",
+    "html-react-parser": "^3.0.4",
+    "json-server": "^0.17.0",
+    "jwt-decode": "^3.1.2",
+    "node-sass": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-fontawesome": "^1.7.1",
+    "react-hooks": "^1.0.1",
+    "react-icons": "^4.6.0",
+    "react-password-checklist": "^1.4.2",
+    "react-redux": "^8.0.4",
+    "react-router-dom": "^6.4.3",
+    "react-scripts": "5.0.1",
+    "reactstrap": "^9.1.4",
+    "sass": "^1.55.0",
+    "useref": "^1.4.4",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.12"
+  }
+}

@@ -1,0 +1,23 @@
+.container__page {
+
+
+
+  .certificate{
+    color:#00B04E;
+    &__item{
+      padding: 55px 18px 55px;
+    background: #ffffff;
+    text-align: center;
+    border: 1px solid #E0E6ED;
+border-radius: 6px;
+      &--count{
+        padding-bottom: 3px;
+      }
+    }
+    
+  }
+  .pb__30{
+    padding-bottom: 30px;
+  }
+}
+

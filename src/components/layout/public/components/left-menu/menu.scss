@@ -1,0 +1,144 @@
+.container__menu {
+  float: left;
+  background-color: rgb(248, 248, 248);
+  width: 100%;
+  max-width: 216px;
+  height: 100vh;
+}
+.menu__name {
+  .menu__all > ul > li {
+    cursor: pointer !important;
+    padding: 8px;
+    width: 130px;
+  }
+}
+.menu__name > .menu__all > ul > li > span {
+  cursor: pointer;
+  color: #1d204f !important;
+  font-size: 15px;
+}
+.item__name {
+  margin-left: 26px;
+  margin-top: 40px;
+  max-width: max-content;
+  max-height: max-content;
+}
+.ant-menu-item-selected {
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 24px;
+  border: none;
+  font-family: bold;
+  position: relative;
+}
+.ant-menu-item-selected::before {
+  content: "";
+  background-color: #474975;
+  display: inline-block;
+  display: flex;
+  position: absolute;
+  left: -10px;
+  align-items: center;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 7px;
+}
+.menu__name {
+  width: 216px;
+  background-color: #F8F8F8;
+}
+.menu__name > .menu__all > ul {
+  height: 240px;
+}
+.menu__name > .menu__all > h6 {
+  cursor: default;
+  max-width: max-content;
+  font-family: "Roboto";
+  margin-left: 22px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.003em;
+}
+.menu__all {
+  padding-left: 20px;
+  padding-top: 45px;
+  width: 216px;
+  max-height: 340px;
+  height: 100vh;
+}
+.mobile-menu-icon img {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+}
+.mobile-menu-icon {
+  display: none;
+}
+@media screen and (max-width: 962px) {
+  .Log {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+  .menu__all {
+    display: none !important;
+  }
+  .menu__name{
+    height: unset !important;
+    width: unset;
+  }
+  .menu__allmobile {
+    z-index: 1000;
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: #1d204f;
+    left: 0;
+    transition: all 0.5s ease-out;
+    width: 100%;
+    height: 100vh;
+    h6{
+      opacity: 0;
+    }
+    ul{
+      padding: 0;
+    }
+  }
+  
+  .ant-menu-item-selected::before {
+    content: "";
+    background-color: #474975;
+    display: inline-block;
+    display: flex;
+    position: absolute;
+    left: -10px;
+    align-items: center;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 7px;
+    opacity: 0;
+  }
+  .ant-menu-item {
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+  .mobile-menu-icon {
+    margin-left: 40px;
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    z-index: 1000;
+    border: none;
+    outline: none;
+    top: 25px;
+    left: 0px;
+  }
+}

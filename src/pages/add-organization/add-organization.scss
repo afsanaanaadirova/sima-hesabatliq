@@ -1,0 +1,36 @@
+.add__organization {
+    padding: 40px;
+    &--title {
+        margin: 0;
+        padding-bottom: 30px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        letter-spacing: 0.003em;
+        color: #1d204f;
+    }
+    .form__item {
+        display: flex;
+        flex-direction: column;
+        label {
+            margin-bottom: 0;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: 0.003em;
+            color: #1d204f;
+            padding-bottom: 15px;
+        }
+        span {
+            display: block;
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 24px;
+            letter-spacing: 0.003em;
+            color: #1d204f;
+        }
+    }
+}
+// .modal-title{
+//     display:none;
+// }

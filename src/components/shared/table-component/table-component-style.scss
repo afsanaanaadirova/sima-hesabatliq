@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.table {
+  tr th {
+    font-weight: 501;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1d204f;
+  }
+  tr td {
+    padding-top: 18px;
+    color: #1d204f ;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.003em;
+    .deleteIcon{
+      margin-right: 10px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+    a{
+      color: #00B04E;
+    }
+  }
+}
+
+.noData {
+  text-align: center;
+  font-style: italic;
+  color: red;
+  font-size: 18px;
+}
+.tableComponent {
+  margin-top: 40px;
+  p {
+    margin-left: 7px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #1d204f;
+  }
+}

@@ -1,0 +1,40 @@
+.organization__table {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 58px;
+  margin-top: 40px;
+  &--left {
+    width: 80%;
+    .tableComponent {
+      margin-top: unset;
+    }
+  }
+  &--right {
+    width: 20%;
+    button {
+      padding: 12px 26px 12px 20px;
+    }
+  }
+}
+.organization__item {
+  padding-top: 40px;
+  width: 100%;
+  max-width: 1220px;
+  padding-left: 40px;
+}
+@media screen and (max-width: 750px) {
+  .container__page {
+    .organization__table {
+      flex-direction: column-reverse;
+      &--left {
+        width: unset;
+      }
+      &--right {
+        display: flex;
+        justify-content: end;
+        width: unset;
+        padding-bottom: 38px;
+      }
+    }
+  }
+}

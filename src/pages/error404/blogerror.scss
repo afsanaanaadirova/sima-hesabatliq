@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+.container__error {
+  width: 100%;
+  height: 90vh;
+}
+.container__404 {
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.container__logo {
+  position: relative;
+  width: max-content;
+  margin: 0 auto;
+}
+.container__logo img {
+  width: 250px;
+  height: 250px;
+}
+.container__logo::before {
+  content: "404";
+  font-size: 80px;
+  font-family: "Heebo", sans-serif;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(30, 32, 79);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container__logo .container__search {
+  position: absolute;
+}
+.container__search {
+  margin-top: -60px;
+}
+.container__search img {
+  width: 120px;
+  height: 120px;
+  color: rgb(30, 32, 79);
+}
+.container__textes {
+  height: 250px;
+  h1 {
+    margin-top: 70px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: rgb(30, 32, 79);
+  }
+  h5 {
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(227, 230, 242);
+    font-family: "Montserrat", sans-serif;
+  }
+  button {
+    width: 170px;
+    border-radius: 30px;
+    height: 60px;
+    margin-left: 160px;
+    background-color: rgb(30, 32, 79);
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    font-family: "Open Sans", sans-serif;
+  }
+}

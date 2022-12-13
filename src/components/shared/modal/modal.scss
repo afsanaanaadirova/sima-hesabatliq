@@ -1,0 +1,116 @@
+.modal {
+    background: #1d204f00;
+
+    .modal-dialog {
+        transform: none;
+        margin-top: 128px;
+    }
+
+    .btn-close {
+        &:focus {
+            box-shadow: unset !important;
+        }
+    }
+
+    &__header {
+        display: flex;
+        flex-direction: column-reverse;
+        border-bottom: unset;
+        width: fit-content;
+        display: flex;
+        position: absolute;
+        right: 16px;
+        z-index: 9999;
+        padding: 0;
+        top: 16px;
+
+        h5 {
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: 0.003em;
+            color: #1d204f;
+        }
+    }
+
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        padding-top: 58px;
+        &--delete,
+        &--cancel {
+            border: none !important;
+            padding: 10px 66px;
+        }
+        &--delete {
+            background-color: #ffffff;
+            color: #1d204f !important;
+            background: #ffffff;
+            border: 1px solid #1d204f !important;
+            border-radius: 4px;
+            &:hover {
+                background-color: #ffffff !important;
+            }
+        }
+        &--cancel {
+            background-color: #00b04e;
+            color: #ffffff !important;
+            border-radius: 4px;
+            font-size: 15px;
+            line-height: 24px;
+            text-align: center;
+            letter-spacing: 0.003em;
+            &:hover {
+                background-color: #00b04e !important;
+            }
+        }
+    }
+
+    &__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 58px;
+
+        span {
+            padding-top: 20px;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+
+        &--input {
+            width: 228px;
+            background: #ffffff;
+            border: 1px solid #d4d4e3;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04);
+            border-radius: 4px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: 0.003em;
+            color: #474975;
+        }
+    }
+}
+.modal__deletebody {
+    text-align: center;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 354px;
+    h5 {
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: 0.003em;
+        color: #2c3341;
+    }
+}

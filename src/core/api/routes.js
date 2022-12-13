@@ -1,0 +1,16 @@
+export const APIRoutes = {
+  reports: "reports",
+  reportApps: "reportApps?",
+  reportAppDetails: "reportAppDetails?",
+  credentials: "credentials",
+  organizations: "organizations",
+  environments: "environments",
+  certificates: "certificates",
+  agencies: "agencies",
+  errors: "errors-message",
+  packages: "packages",
+  signatureBoxs: "signatureBoxs",
+  signature: "signature",
+  editUser: "credentials",
+  users: "users",
+};
