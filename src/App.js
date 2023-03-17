@@ -7,7 +7,8 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        {isLoggedIn ? <Outlet /> : <Navigate to="/login" replace={true} />}
+        {/* {isLoggedIn ? <Outlet /> : <Navigate to="/login" replace={true} />} */}
+        <Outlet />
       </Layout>
     </div>
   );

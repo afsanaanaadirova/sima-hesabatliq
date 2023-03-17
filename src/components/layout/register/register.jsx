@@ -70,7 +70,7 @@ const Register = (isValid) => {
         // setPassValid(false);
         setTimeout(() => {
           setDangerAlert(false);
-        }, 3000);
+        }, 1000);
       }
     }
     setError(true);
@@ -159,10 +159,16 @@ const Register = (isValid) => {
           </FormGroup>
           <SubmitButton>Qeydiyyatdan Keç</SubmitButton>
           {successAlert == true ? (
+          <>
             <Alert color="success" className="alert-item">
               Qeydiyyat uğurla tamamlandı!
               <br /> Giriş səhifəsinə yönləndirilirsiniz!
             </Alert>
+             <Alert color="success" className="alert-item">
+             Qeyd edek ki, bu Test merhelesidir, login ishlemeye biler,<br />
+             url-den sehifelere kechid etmek mumkundur.
+           </Alert>
+          </>
           ) : dangerAlert == true ? (
             <Alert color="danger" className="alert-item">
               Bu email artıq mövcuddur!
